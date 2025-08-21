@@ -122,6 +122,7 @@ main {
 /* Draw button */
 .draw-section {
     margin: 30px 0;
+    text-align: center;
 }
 
 .draw-button {
