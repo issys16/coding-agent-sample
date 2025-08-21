@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おみくじ - Fortune Telling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎋 おみくじ 🎋</h1>
+            <p>あなたの運勢を占います</p>
+        </header>
+
+        <main>
+            <div class="omikuji-box">
+                <div id="result-display" class="result-display hidden">
+                    <div class="result-card">
+                        <h2 id="fortune-text">大吉</h2>
+                        <p id="fortune-message">とても良い運勢です</p>
+                        <div class="result-date" id="result-date"></div>
+                    </div>
+                </div>
+
+                <div class="draw-section">
+                    <button id="draw-button" class="draw-button">
+                        <span class="button-text">おみくじを引く</span>
+                        <div class="loading-spinner hidden" id="loading-spinner"></div>
+                    </button>
+                </div>
+
+                <div class="history-section">
+                    <div class="last-result" id="last-result"></div>
+                    <button id="clear-history" class="clear-button">履歴を削除</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 おみくじアプリ</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
