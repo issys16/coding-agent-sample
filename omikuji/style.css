@@ -7,9 +7,9 @@
 
 body {
     font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: black;
     min-height: 100vh;
-    color: #333;
+    color: #fff;
 }
 
 .container {
